@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.example.barbershop.app-mergeDebugResources-33:/layout/activity_main.xml",
+        "source": "com.example.barbershop.app-main-36:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.barbershop.app-mergeDebugResources-33:/layout/activity_home.xml",
+        "source": "com.example.barbershop.app-main-36:/layout/activity_home.xml"
+    }
+]

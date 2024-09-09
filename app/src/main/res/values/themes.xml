@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BarberShop" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/alizarin</item>
+        <item name="colorPrimary">@color/nidnightblue</item>
+        <item name="colorPrimaryVariant">@color/nidnightblue</item>
+        <item name="colorOnPrimaryFixedVariant">@color/white</item>
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+    </style>
+
+    <style name="Theme.BarberShop" parent="Base.Theme.BarberShop"
+
+
+        />
+</resources>

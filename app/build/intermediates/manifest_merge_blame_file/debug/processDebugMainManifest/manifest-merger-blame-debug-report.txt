@@ -1,0 +1,210 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.barbershop"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- Include required permissions for Google Maps API to run. -->
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\mnscmart\.gradle\caches\transforms-4\ed278e58f1fbd25682677bbceb500651\transformed\play-services-maps-18.1.0\AndroidManifest.xml:23:5-79
+12-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\mnscmart\.gradle\caches\transforms-4\ed278e58f1fbd25682677bbceb500651\transformed\play-services-maps-18.1.0\AndroidManifest.xml:23:22-76
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\mnscmart\.gradle\caches\transforms-4\ed278e58f1fbd25682677bbceb500651\transformed\play-services-maps-18.1.0\AndroidManifest.xml:24:5-67
+13-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\mnscmart\.gradle\caches\transforms-4\ed278e58f1fbd25682677bbceb500651\transformed\play-services-maps-18.1.0\AndroidManifest.xml:24:22-64
+14
+15    <uses-feature
+15-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\mnscmart\.gradle\caches\transforms-4\ed278e58f1fbd25682677bbceb500651\transformed\play-services-maps-18.1.0\AndroidManifest.xml:26:5-28:35
+16        android:glEsVersion="0x00020000"
+16-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\mnscmart\.gradle\caches\transforms-4\ed278e58f1fbd25682677bbceb500651\transformed\play-services-maps-18.1.0\AndroidManifest.xml:27:9-41
+17        android:required="true" />
+17-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\mnscmart\.gradle\caches\transforms-4\ed278e58f1fbd25682677bbceb500651\transformed\play-services-maps-18.1.0\AndroidManifest.xml:28:9-32
+18
+19    <queries>
+19-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\mnscmart\.gradle\caches\transforms-4\ed278e58f1fbd25682677bbceb500651\transformed\play-services-maps-18.1.0\AndroidManifest.xml:30:5-34:15
+20
+21        <!-- Needs to be explicitly declared on Android R+ -->
+22        <package android:name="com.google.android.apps.maps" />
+22-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\mnscmart\.gradle\caches\transforms-4\ed278e58f1fbd25682677bbceb500651\transformed\play-services-maps-18.1.0\AndroidManifest.xml:33:9-64
+22-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\mnscmart\.gradle\caches\transforms-4\ed278e58f1fbd25682677bbceb500651\transformed\play-services-maps-18.1.0\AndroidManifest.xml:33:18-61
+23    </queries>
+24
+25    <permission
+25-->[androidx.core:core:1.13.1] C:\Users\mnscmart\.gradle\caches\transforms-4\31d41a883c9c75735101c49dcbafef51\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+26        android:name="com.example.barbershop.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+26-->[androidx.core:core:1.13.1] C:\Users\mnscmart\.gradle\caches\transforms-4\31d41a883c9c75735101c49dcbafef51\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+27        android:protectionLevel="signature" />
+27-->[androidx.core:core:1.13.1] C:\Users\mnscmart\.gradle\caches\transforms-4\31d41a883c9c75735101c49dcbafef51\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+28
+29    <uses-permission android:name="com.example.barbershop.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+29-->[androidx.core:core:1.13.1] C:\Users\mnscmart\.gradle\caches\transforms-4\31d41a883c9c75735101c49dcbafef51\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+29-->[androidx.core:core:1.13.1] C:\Users\mnscmart\.gradle\caches\transforms-4\31d41a883c9c75735101c49dcbafef51\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+30
+31    <application
+31-->C:\Users\mnscmart\Documents\Barber_shop\app\src\main\AndroidManifest.xml:5:5-47:19
+32        android:allowBackup="true"
+32-->C:\Users\mnscmart\Documents\Barber_shop\app\src\main\AndroidManifest.xml:6:9-35
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.13.1] C:\Users\mnscmart\.gradle\caches\transforms-4\31d41a883c9c75735101c49dcbafef51\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+34        android:dataExtractionRules="@xml/data_extraction_rules"
+34-->C:\Users\mnscmart\Documents\Barber_shop\app\src\main\AndroidManifest.xml:7:9-65
+35        android:debuggable="true"
+36        android:extractNativeLibs="false"
+37        android:fullBackupContent="@xml/backup_rules"
+37-->C:\Users\mnscmart\Documents\Barber_shop\app\src\main\AndroidManifest.xml:8:9-54
+38        android:icon="@mipmap/ic_launcher"
+38-->C:\Users\mnscmart\Documents\Barber_shop\app\src\main\AndroidManifest.xml:9:9-43
+39        android:label="@string/app_name"
+39-->C:\Users\mnscmart\Documents\Barber_shop\app\src\main\AndroidManifest.xml:10:9-41
+40        android:roundIcon="@mipmap/ic_launcher_round"
+40-->C:\Users\mnscmart\Documents\Barber_shop\app\src\main\AndroidManifest.xml:11:9-54
+41        android:supportsRtl="true"
+41-->C:\Users\mnscmart\Documents\Barber_shop\app\src\main\AndroidManifest.xml:12:9-35
+42        android:testOnly="true"
+43        android:theme="@style/Theme.BarberShop" >
+43-->C:\Users\mnscmart\Documents\Barber_shop\app\src\main\AndroidManifest.xml:13:9-48
+44
+45        <!--
+46             TODO: Before you run your application, you need a Google Maps API key.
+47
+48             To get one, follow the directions here:
+49
+50                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+51
+52             Once you have your API key (it starts with "AIza"), define a new property in your
+53             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+54             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+55        -->
+56        <meta-data
+56-->C:\Users\mnscmart\Documents\Barber_shop\app\src\main\AndroidManifest.xml:27:9-29:44
+57            android:name="com.google.android.geo.API_KEY"
+57-->C:\Users\mnscmart\Documents\Barber_shop\app\src\main\AndroidManifest.xml:28:13-58
+58            android:value="YOUR_API_KEY" />
+58-->C:\Users\mnscmart\Documents\Barber_shop\app\src\main\AndroidManifest.xml:29:13-41
+59
+60        <activity
+60-->C:\Users\mnscmart\Documents\Barber_shop\app\src\main\AndroidManifest.xml:31:9-34:64
+61            android:name="com.example.barbershop.FullMace"
+61-->C:\Users\mnscmart\Documents\Barber_shop\app\src\main\AndroidManifest.xml:32:13-37
+62            android:exported="false"
+62-->C:\Users\mnscmart\Documents\Barber_shop\app\src\main\AndroidManifest.xml:33:13-37
+63            android:label="@string/title_activity_full_mace" />
+63-->C:\Users\mnscmart\Documents\Barber_shop\app\src\main\AndroidManifest.xml:34:13-61
+64        <activity
+64-->C:\Users\mnscmart\Documents\Barber_shop\app\src\main\AndroidManifest.xml:35:9-43:20
+65            android:name="com.example.barbershop.MainActivity"
+65-->C:\Users\mnscmart\Documents\Barber_shop\app\src\main\AndroidManifest.xml:36:13-41
+66            android:exported="true" >
+66-->C:\Users\mnscmart\Documents\Barber_shop\app\src\main\AndroidManifest.xml:37:13-36
+67            <intent-filter>
+67-->C:\Users\mnscmart\Documents\Barber_shop\app\src\main\AndroidManifest.xml:38:13-42:29
+68                <action android:name="android.intent.action.MAIN" />
+68-->C:\Users\mnscmart\Documents\Barber_shop\app\src\main\AndroidManifest.xml:39:17-69
+68-->C:\Users\mnscmart\Documents\Barber_shop\app\src\main\AndroidManifest.xml:39:25-66
+69
+70                <category android:name="android.intent.category.LAUNCHER" />
+70-->C:\Users\mnscmart\Documents\Barber_shop\app\src\main\AndroidManifest.xml:41:17-77
+70-->C:\Users\mnscmart\Documents\Barber_shop\app\src\main\AndroidManifest.xml:41:27-74
+71            </intent-filter>
+72        </activity>
+73        <activity
+73-->C:\Users\mnscmart\Documents\Barber_shop\app\src\main\AndroidManifest.xml:44:9-46:40
+74            android:name="com.example.barbershop.view.Home"
+74-->C:\Users\mnscmart\Documents\Barber_shop\app\src\main\AndroidManifest.xml:45:13-38
+75            android:exported="false" />
+75-->C:\Users\mnscmart\Documents\Barber_shop\app\src\main\AndroidManifest.xml:46:13-37
+76        <!-- Needs to be explicitly declared on P+ -->
+77        <uses-library
+77-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\mnscmart\.gradle\caches\transforms-4\ed278e58f1fbd25682677bbceb500651\transformed\play-services-maps-18.1.0\AndroidManifest.xml:39:9-41:40
+78            android:name="org.apache.http.legacy"
+78-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\mnscmart\.gradle\caches\transforms-4\ed278e58f1fbd25682677bbceb500651\transformed\play-services-maps-18.1.0\AndroidManifest.xml:40:13-50
+79            android:required="false" />
+79-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\mnscmart\.gradle\caches\transforms-4\ed278e58f1fbd25682677bbceb500651\transformed\play-services-maps-18.1.0\AndroidManifest.xml:41:13-37
+80
+81        <activity
+81-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\mnscmart\.gradle\caches\transforms-4\54830992a6908eb6ed5b67ec9dd683e0\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+82            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+82-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\mnscmart\.gradle\caches\transforms-4\54830992a6908eb6ed5b67ec9dd683e0\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+83            android:exported="false"
+83-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\mnscmart\.gradle\caches\transforms-4\54830992a6908eb6ed5b67ec9dd683e0\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+84            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+84-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\mnscmart\.gradle\caches\transforms-4\54830992a6908eb6ed5b67ec9dd683e0\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+85
+86        <meta-data
+86-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\mnscmart\.gradle\caches\transforms-4\6593d3499ab163e3cce772fe89195c0b\transformed\play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+87            android:name="com.google.android.gms.version"
+87-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\mnscmart\.gradle\caches\transforms-4\6593d3499ab163e3cce772fe89195c0b\transformed\play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+88            android:value="@integer/google_play_services_version" />
+88-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\mnscmart\.gradle\caches\transforms-4\6593d3499ab163e3cce772fe89195c0b\transformed\play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+89
+90        <provider
+90-->[androidx.emoji2:emoji2:1.3.0] C:\Users\mnscmart\.gradle\caches\transforms-4\550ec8f5ca3b18331ed769df05bc3fce\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+91            android:name="androidx.startup.InitializationProvider"
+91-->[androidx.emoji2:emoji2:1.3.0] C:\Users\mnscmart\.gradle\caches\transforms-4\550ec8f5ca3b18331ed769df05bc3fce\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+92            android:authorities="com.example.barbershop.androidx-startup"
+92-->[androidx.emoji2:emoji2:1.3.0] C:\Users\mnscmart\.gradle\caches\transforms-4\550ec8f5ca3b18331ed769df05bc3fce\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+93            android:exported="false" >
+93-->[androidx.emoji2:emoji2:1.3.0] C:\Users\mnscmart\.gradle\caches\transforms-4\550ec8f5ca3b18331ed769df05bc3fce\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+94            <meta-data
+94-->[androidx.emoji2:emoji2:1.3.0] C:\Users\mnscmart\.gradle\caches\transforms-4\550ec8f5ca3b18331ed769df05bc3fce\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+95                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+95-->[androidx.emoji2:emoji2:1.3.0] C:\Users\mnscmart\.gradle\caches\transforms-4\550ec8f5ca3b18331ed769df05bc3fce\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+96                android:value="androidx.startup" />
+96-->[androidx.emoji2:emoji2:1.3.0] C:\Users\mnscmart\.gradle\caches\transforms-4\550ec8f5ca3b18331ed769df05bc3fce\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+97            <meta-data
+97-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\mnscmart\.gradle\caches\transforms-4\e657c13c7a39b09f79d385d6e0c93a91\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+98                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+98-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\mnscmart\.gradle\caches\transforms-4\e657c13c7a39b09f79d385d6e0c93a91\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+99                android:value="androidx.startup" />
+99-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\mnscmart\.gradle\caches\transforms-4\e657c13c7a39b09f79d385d6e0c93a91\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+100            <meta-data
+100-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\mnscmart\.gradle\caches\transforms-4\714bb55dd6288246a7bc6a2f423f2fe1\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+101                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+101-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\mnscmart\.gradle\caches\transforms-4\714bb55dd6288246a7bc6a2f423f2fe1\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+102                android:value="androidx.startup" />
+102-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\mnscmart\.gradle\caches\transforms-4\714bb55dd6288246a7bc6a2f423f2fe1\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+103        </provider>
+104
+105        <receiver
+105-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\mnscmart\.gradle\caches\transforms-4\714bb55dd6288246a7bc6a2f423f2fe1\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+106            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+106-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\mnscmart\.gradle\caches\transforms-4\714bb55dd6288246a7bc6a2f423f2fe1\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+107            android:directBootAware="false"
+107-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\mnscmart\.gradle\caches\transforms-4\714bb55dd6288246a7bc6a2f423f2fe1\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+108            android:enabled="true"
+108-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\mnscmart\.gradle\caches\transforms-4\714bb55dd6288246a7bc6a2f423f2fe1\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+109            android:exported="true"
+109-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\mnscmart\.gradle\caches\transforms-4\714bb55dd6288246a7bc6a2f423f2fe1\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+110            android:permission="android.permission.DUMP" >
+110-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\mnscmart\.gradle\caches\transforms-4\714bb55dd6288246a7bc6a2f423f2fe1\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+111            <intent-filter>
+111-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\mnscmart\.gradle\caches\transforms-4\714bb55dd6288246a7bc6a2f423f2fe1\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+112                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+112-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\mnscmart\.gradle\caches\transforms-4\714bb55dd6288246a7bc6a2f423f2fe1\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+112-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\mnscmart\.gradle\caches\transforms-4\714bb55dd6288246a7bc6a2f423f2fe1\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+113            </intent-filter>
+114            <intent-filter>
+114-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\mnscmart\.gradle\caches\transforms-4\714bb55dd6288246a7bc6a2f423f2fe1\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+115                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+115-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\mnscmart\.gradle\caches\transforms-4\714bb55dd6288246a7bc6a2f423f2fe1\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+115-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\mnscmart\.gradle\caches\transforms-4\714bb55dd6288246a7bc6a2f423f2fe1\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+116            </intent-filter>
+117            <intent-filter>
+117-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\mnscmart\.gradle\caches\transforms-4\714bb55dd6288246a7bc6a2f423f2fe1\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+118                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+118-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\mnscmart\.gradle\caches\transforms-4\714bb55dd6288246a7bc6a2f423f2fe1\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+118-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\mnscmart\.gradle\caches\transforms-4\714bb55dd6288246a7bc6a2f423f2fe1\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+119            </intent-filter>
+120            <intent-filter>
+120-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\mnscmart\.gradle\caches\transforms-4\714bb55dd6288246a7bc6a2f423f2fe1\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+121                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+121-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\mnscmart\.gradle\caches\transforms-4\714bb55dd6288246a7bc6a2f423f2fe1\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+121-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\mnscmart\.gradle\caches\transforms-4\714bb55dd6288246a7bc6a2f423f2fe1\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+122            </intent-filter>
+123        </receiver>
+124    </application>
+125
+126</manifest>

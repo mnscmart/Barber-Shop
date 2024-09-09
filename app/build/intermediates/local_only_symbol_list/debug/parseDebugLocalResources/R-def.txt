@@ -1,0 +1,37 @@
+R_DEF: Internal format may change without notice
+local
+color alizarin
+color black
+color nidnightblue
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable imag5
+drawable img1
+drawable img2
+drawable img3
+drawable img4
+id btAgendar
+id editNome
+id editSenha
+id editbtLogin
+id main
+id pesquisa
+id recyclerViewServicos
+id textNomeUsuario
+id textTituloServicos
+layout activity_home
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string title_activity_full_mace
+style Base.Theme.BarberShop
+style Theme.BarberShop
+xml backup_rules
+xml data_extraction_rules
