@@ -20,13 +20,16 @@ id btAgendar
 id editNome
 id editSenha
 id editbtLogin
+id imgServico
 id main
 id pesquisa
 id recyclerViewServicos
 id textNomeUsuario
 id textTituloServicos
+id txtServico
 layout activity_home
 layout activity_main
+layout servicos_item
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name

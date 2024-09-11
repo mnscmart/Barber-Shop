@@ -3401,6 +3401,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imgServico
 id immediateStop
 id included
 id indeterminate
@@ -3665,6 +3666,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id txtServico
 id unchecked
 id uniform
 id unlabeled
@@ -3884,6 +3886,7 @@ layout notification_template_part_time
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
+layout servicos_item
 layout support_simple_spinner_dropdown_item
 mipmap ic_launcher
 mipmap ic_launcher_round

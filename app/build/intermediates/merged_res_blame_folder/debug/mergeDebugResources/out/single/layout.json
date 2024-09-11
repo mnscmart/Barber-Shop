@@ -1,10 +1,14 @@
 [
     {
-        "merged": "com.example.barbershop.app-mergeDebugResources-33:/layout/activity_main.xml",
-        "source": "com.example.barbershop.app-main-36:/layout/activity_main.xml"
+        "merged": "C:\\Users\\mnscmart\\.gradle\\daemon\\8.7\\com.example.barbershop.app-mergeDebugResources-33:\\layout\\activity_home.xml",
+        "source": "C:\\Users\\mnscmart\\.gradle\\daemon\\8.7\\com.example.barbershop.app-main-36:\\layout\\activity_home.xml"
     },
     {
-        "merged": "com.example.barbershop.app-mergeDebugResources-33:/layout/activity_home.xml",
-        "source": "com.example.barbershop.app-main-36:/layout/activity_home.xml"
+        "merged": "C:\\Users\\mnscmart\\.gradle\\daemon\\8.7\\com.example.barbershop.app-mergeDebugResources-33:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\mnscmart\\.gradle\\daemon\\8.7\\com.example.barbershop.app-main-36:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "com.example.barbershop.app-mergeDebugResources-33:/layout/servicos_item.xml",
+        "source": "com.example.barbershop.app-main-36:/layout/servicos_item.xml"
     }
 ]

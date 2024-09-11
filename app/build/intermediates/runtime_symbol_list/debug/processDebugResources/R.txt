@@ -3400,6 +3400,7 @@ int id ifRoom 0x7f0800e2
 int id ignore 0x7f0800e3
 int id ignoreRequest 0x7f0800e4
 int id image 0x7f0800e5
+int id imgServico 0x7f080206
 int id immediateStop 0x7f0800e6
 int id included 0x7f0800e7
 int id indeterminate 0x7f0800e8
@@ -3664,6 +3665,7 @@ int id transition_position 0x7f0801ea
 int id transition_scene_layoutid_cache 0x7f0801eb
 int id transition_transform 0x7f0801ec
 int id triangle 0x7f0801ed
+int id txtServico 0x7f080207
 int id unchecked 0x7f0801ee
 int id uniform 0x7f0801ef
 int id unlabeled 0x7f0801f0
@@ -3883,6 +3885,7 @@ int layout notification_template_part_time 0x7f0b0068
 int layout select_dialog_item_material 0x7f0b0069
 int layout select_dialog_multichoice_material 0x7f0b006a
 int layout select_dialog_singlechoice_material 0x7f0b006b
+int layout servicos_item 0x7f0b006d
 int layout support_simple_spinner_dropdown_item 0x7f0b006c
 int mipmap ic_launcher 0x7f0d0000
 int mipmap ic_launcher_round 0x7f0d0001
