@@ -1,31 +1,38 @@
 package com.example.barbershop.adapter
 
 import android.content.Context
-import android.view.View
+import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.barbershop.databinding.ServicosItemBinding
 import com.example.barbershop.model.Servicos
 
-class ServicosAdapter(private val context: Context, private val listaServicos: MutableList<Servicos>):
-    RecyclerView.Adapter<ServicosAdapter.ServicosViewHolder>() {
+class ServicosAdapter(
+    private val context: Context,
+    private val listaServicos: MutableList<Servicos>
+) : RecyclerView.Adapter<ServicosAdapter.ServicosViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ServicosViewHolder {
-        TODO("Not yet implemented")
-    }
-
-    override fun getItemCount(): Int {
-        TODO("Not yet implemented")
+        val binding = ServicosItemBinding.inflate(LayoutInflater.from(parent.context), parent, false)
+        return ServicosViewHolder(binding)
     }
 
     override fun onBindViewHolder(holder: ServicosViewHolder, position: Int) {
-        TODO("Not yet implemented")
+        val servico = listaServicos[position]
+        holder.bind(servico)
     }
 
-    inner class ServicosViewHolder(binding: ServicosItemBinding) :
-        RecyclerView.ViewHolder(binding.root){
-            val imgServico = binding.imgServico
-            val textServico = binding.txtServico
+    override fun getItemCount(): Int = listaServicos.size
+
+    inner class ServicosViewHolder(private val binding: ServicosItemBinding) :
+        RecyclerView.ViewHolder(binding.root) {
+
+        fun bind(servico: Servicos) {
+            // Verifica se img é null e usa um drawable padrão se for o caso
+            servico.img?.let {
+            } ?: binding.imgServico// Substitua por seu recurso padrão
+
+            binding.txtServico.text = servico.nome
         }
-
     }
+}
